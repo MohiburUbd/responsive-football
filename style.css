@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-container{
+    background-color: rgb(45, 37, 160);
+    background-size: 100%;
+    display: flex;
+    
+}
+.top-banner{
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    line-height: 30px;
+    width: 50%;
+}
+.top-banner img{
+    width: 556px;
+    height: 438px;
+}
+.players-container{
+    margin-top: 50px;
+    justify-content: center;
+}
+/* players */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.player img{
+    width: 300px;
+    height: 250px;
+}
+
