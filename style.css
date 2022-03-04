@@ -2,31 +2,49 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .top-container{
-    background-color: rgb(45, 37, 160);
+    background-color: #2D25A0;
     background-size: 100%;
     display: flex;
     
 }
 .top-banner{
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     color: white;
     line-height: 30px;
     width: 50%;
+    padding: 50px 100px;
 }
 .top-banner img{
-    width: 556px;
-    height: 438px;
+    width: 500px;
+    height: 400px;
+}
+.watch-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 8px 40px;
+    color: white;
+    font-size: 14px;
+    
 }
 .players-container{
     margin-top: 50px;
     justify-content: center;
+    
 }
 /* players */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   
+    grid-gap: 3em;
+    
+    
+}
+.player{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 300;
 }
 .player img{
     width: 300px;
